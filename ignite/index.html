@@ -5,10 +5,13 @@
   <meta name="viewport" content="width=device-width">
   <meta charset="description" content="travel website, best, locations">
   <meta name="author" content="Shubham">
-<title>MPULSE | IGNITE [TESTING]</title>
+  <title>Notice | Home</title>
   
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="style.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -76,28 +79,31 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="#"><img src="img/logopngblack.png" id="logopng" width="150px" height="120px" style=" margin-top: -25;"></a>
+          <div class="navbar-brand" style=" margin-top: none; padding-top: 0px" href="#"><img src="img/finallogo20.png" id="logopng" width="170px" height="130px" style=" margin-top: -25;"></div>
+       <!--    <div class="navbar-brand" style=" margin-top: none; padding-top: 0px" href="#"><img src="img/logopng-picsay.png" id="logopng" width="140px" height="110px" style=" margin-top: -25;"></div> -->
         </div>
+      
 
-  
 
-
+      
+      <div class="nav-padding">
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right"  style=" padding-top: 0px; margin-top: 35px; margin-bottom: -10;">
-            <li class="current"><a href="#slider1">Home</a></li>
+          <ul class="nav navbar-nav navbar-right"  style=" padding-top: 0px; margin-top: 35px;">
+            <li class="active first-list"><a href="#slider1">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-letters="Pages">More</span><span class="caret"></span></a>
                   <ul class="dropdown-menu"> 
                     <li><a href="#client" class="scroll">Testimonials</a></li>
-                    <li><a href="#pricing" class="scroll">Pricing</a></li>
+                    <li><a href="#pricing" class="scroll">Prizes</a></li>
                     <li><a href="#team" class="scroll">Team</a></li>
                     <li><a href="#event" class="scroll">Events</a></li>
                   </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contactt">Contact</a></li>
             <li><a href="#gallery">Gallery</a></li>
           </ul>
         </div><!--/.nav-collapse -->
+      </div><!--/.nav-paddig -->
       </div>
     </nav>
 
@@ -131,32 +137,35 @@
                 });
             </script>
             <div  id="top" class="callbacks_container-wrap">
-              <ul class="rslides" id="slider3">
+              <ul class="rslides" id="slider3"></span> 
                 <li>
-                  <div class="slider-info" data-aos="fade-left">
-                  <h6>PES'S MCOE, PUNE </h6>
-                  <p >PRESENTS</p>
+                  <div class="slider-info">
+                  <h6>PES'S Modern College of Engineering,Shivajinagar, PUNE PRESENTS</h6>
                     <h3>IGNITE 2K19</h3>
-                    
-                    
+                    <div class="more-button">
+                      <a href="#main" data-toggle="modal" data-target="#myModal">Register for Events</a>
+                    </div>
                   </div>
                 </li>
                 <li>
-                  <div class="slider-info" data-aos="fade-left">
-                  <p>ORGANISED BY . DEPARTMENT OF</p>
+                  <div class="slider-info">
+                    <p>ORGANISED BY DEPARTMENT OF</p> 
                     <h6 style="font-size: 40px">INFORMATION</h6>
-                    <h6 style="font-size: 40px"> TECHNOLOGY</h6>
-                      
-                    
+                    <h3 style="font-size: 40px"> TECHNOLOGY</h3>                     
+                    <div class="more-button">
+                      <a href="#main" data-toggle="modal" data-target="#myModal">Register for Events</a>
+                    </div>                    
                     
                   </div>
                 </li>
                 <li>
-                  <div class="slider-info" data-aos="fade-left">
-                  
-                    <p>STAY TUNED . EVENT ON</p>
+                  <div class="slider-info">
+                    <p>STAY TUNED EVENT ON</p>
                     <h3> SAT, JAN 12 </h3>
-                    
+                    <div class="more-button">
+                      <a href="#main" data-toggle="modal" data-target="#myModal">Register for Events</a>
+                    </div>
+
                   </div>
                 </li>
               </ul>
@@ -166,45 +175,73 @@
       </div>
       <!-- //banner -->
 
-      <span id="about">scroll</span>
+
+
+
 <!--modal -->
-  <div class="banner-bottom">
+  <div class="banner-bottom" id="about">
     <div class="container">
-      <h3 class="heading-agileinfo" data-aos="zoom-in">About Us<span>Events Is A Professionally Managed Event</span></h3>
+      <h3 class="heading-agileinfo" data-aos="zoom-in">About Us<span class="about-span">Mpulse Ignite is the annual technical event organized by MCOE's IT Department</span></h3>
+      
+      <div class="row">
+       <div class="info-right">
+          <div class="col-md-6">
+              <img src="img/finallogo20.png"  alt=" " class="img-responsive">
+          </div>
+       </div>
+        <div class="info-left">
+          <div class="col-md-6">
+                <h3 class="heading-agileinfo-sub" data-aos="zoom-in">IT Department</h3>
+                <h3 id="fading-h3"><span class="about-h3"><span class="fa fa-quote-left"></span> The department of Information Technology at P.E.S's Modern College of Engineering is one of the few professionally runs premier Institutes working for the accomplishment of a mission to develop skilled IT professionals</span></h3>
+                
+                <h3 class="heading-agileinfo-sub" data-aos="zoom-in">M Pulse</h3>
+                <h3 id="fading-h3"><span class="about-h3"><span class="fa fa-quote-left"></span>‘M Pulse’ is our annual ‘Techno-Management’ extravaganza, an event par excellence that was
+                started in 2006. M-Pulse is a veritable playground for the most intelligent minds in the engineering
+                and management disciplines that pits the best in the business against one another in a quest for
+                glory. Ever since it’s inception in 2006, its reputation and the consequent response has been
+                increasing phenomenally.</span></h3>
+                
+                <h3 class="heading-agileinfo-sub" data-aos="zoom-in">IgnITe</h3>
+                <h3 id="fading-h3"><span class="about-h3"><span class="fa fa-quote-left"></span>IgnITe 2k19 is a Tech Fest held by IT Department. Every year we organize events like Mock Placements, Clash of coders, Weber, and likewise with the only aim to enhance and nurture the technical skills which will provide them the platform to empowering students to develop and achieve their personal and career potentials.</span></h3>
+          </div>
+        </div>
+      </div>  
+  <br><br><br>
+
       <div class="w3ls_banner_bottom_grids">
         
-	<div class="info-left">
+  <div class="info-left">
         <div class="col-md-4 agileits_services_grid">
           <div class="w3_agile_services_grid1">
             <img src="img/g1.jpg" alt=" " class="img-responsive">
             <div class="w3_blur"></div>
           </div>
-          <h3>SPECIAL PROGRAMS</h3>
-          <p>Enjoy the event throughout the entire night and do not sleep till the morning easy.</p>
+          <h3>TECHNICAL PROGRAMS</h3>
+          <p>test your technical skills</p>
         </div>
     </div>
 
-	<div class="info-bottom">
+  <div class="info-bottom">
         <div class="col-md-4 agileits_services_grid">
           <div class="w3_agile_services_grid1">
             <img src="img/g2.jpg" alt=" " class="img-responsive">
             <div class="w3_blur"></div>
           </div>
           <h3>TOP PROGRAMS</h3>
-          <p>Enjoy the event throughout the entire night and do not sleep till the morning easy.</p>
+          <p>Enjoy top coding and quiz programs</p>
         </div>
-	</div>
+  </div>
 
-	<div class="info-right">
+  <div class="info-right">
         <div class="col-md-4 agileits_services_grid">
           <div class="w3_agile_services_grid1">
             <img src="img/g3.jpg" alt=" " class="img-responsive">
             <div class="w3_blur"></div>
           </div>
-          <h3>NON-STOP PARTY</h3>
-          <p>Enjoy the event throughout the entire night and do not sleep till the morning easy.</p>
+          <h3>COMPETITIVE EVENTS</h3>
+          <p>Participate in multiple events and compete with others</p>
         </div>
-	</div>
+  </div>
 
         <div class="clearfix"> </div>
       </div>
@@ -214,10 +251,10 @@
   <section id="main">
 <div class="jumbotron text-center">
       <div class="container" style="padding-top: 50px;">
-	      	<div class="head-bottom">
-	        <h3><u><strong>EVENTS</strong></u></h3><br>
-	        <strong><p>Technology Innovation and Competition all in one place</p></strong>
-	        </div>
+          <div class="head-bottom">
+          <h3 id="events-font"><strong>EVENTS</strong></h3><br>
+          <strong><p>Technology Innovation and Competition all in one place</p></strong>
+          </div>
       </div>
     </div>
 </div>
@@ -231,15 +268,15 @@
                   </div>
                 </div>
 
-				<div class="col-md-4">
-                  <div class="well dash-box">
+        <div class="col-md-4">
+                  <div class="well dash-box" id="blank-well">
                     <div class="info-right">
-                    	<!-- blank well -->
+                      <!-- blank well -->
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" id="event-sec">
                   <div class="well dash-box">
                     <div class="info-right">
                     <img src="wblg.png" data-toggle="modal" data-target="#addPage" height="200px" width="200px">
@@ -247,7 +284,7 @@
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="well dash-box">
+                  <div class="well dash-box" id="event-thi">
                     <div class="info-left">
                     <img src="kslg.png" data-toggle="modal" data-target="#addPage" height="200px" width="200px">
                     </div>
@@ -261,8 +298,8 @@
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="well dash-box">
-                    <div class="info-right">
+                  <div class="well dash-box" id="event-lst">
+                    <div class="info-right" id="mplglogo">
                      <img src="mplg.png" data-toggle="modal" data-target="#addPage" height="200px" width="200px">
                   </div>
                   </div>
@@ -276,7 +313,8 @@
   
 <div class="container">
    <!-- Modal -->
-   <div class="modal fade" id="addPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal fade-scale" id="addPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
       <div class="modal-dialog modal-lg">
          <!-- Modal content-->
          <div class="modal-content">
@@ -323,26 +361,85 @@
                      </p>
                   </div>
                   <div class="tab-pane fade" id="contact"><br><br>
-                  		<strong>Event Heads :</strong><br><br>
+                      <strong>Event Heads :</strong><br><br>
                      <strong>● Shubham Parmar</strong> 8796271300 shubhamparmar.ignite@gmail.com<br><br><br>
                      <strong>● Shubham Jadhav</strong> 7769099521 shubhamjadhav.ignite@gmail.com<br><br>
                   </div>
                </div>
             </div>
-            
+            <div class="modal-footer">
+            <button type="submit" class="btn btn-success">Register for an Event</button>
+            </div>
          </div>
       </div>
    </div>
 </div>
     </section>
 
+<!-- contact -->
+  <!-- mail -->
+  <div class="contact-sectn info-bottom" id="contactt">
+    <div class="container">
+      <h3 id="contactus-stlng">Contact
+        <span>Us</span>
+      </h3>
+      <div class="w3-agile_mail_grids">
+        <div class="col-md-5 contact-left-w3-agile-sectn">
+          <h2>Contact Info</h2>
+          <div class="visit">
+            <div class="col-md-2 col-sm-2 col-xs-2 contact-icon">
+              <span class="fa fa-home" aria-hidden="true"></span>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-10 contact-text-w3-agile">
+              <h4>Visit us</h4>
+              <p>PES Modern College of Engineering</p>
+              <p>1186/A, Off J.M. Road, Shivaji nagar, Pune, Maharashtra 411005</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="mail-w3ls">
+            <div class="col-md-2 col-sm-2 col-xs-2 contact-icon">
+              <span class="fa fa-envelope" aria-hidden="true"></span>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-10 contact-text-w3-agile">
+              <h4>Mail us</h4>
+              <p>
+                <a href="mailto:info@mpulseignite.com">info@mpulseignite.com</a>
+                <a href="mailto:ignitempulse@gmail.com">ignitempulse@gmail.com</a>
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=PES%20modern%20college%20of%20engineering%20pune&amp;key=AIzaSyApt3CVg6PyajQ2lHslEyrS-InvOOFNnNs" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          </div>  
 
+
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+  </div>
+  <!-- //mail -->
+  <!-- map -->
+
+  <!-- //map -->
+  <!-- /contact -->
 
     
 <!-- //services -->
   
-  <footer id="footer">
-      <p>Copyright MPULSE | IGNITE, © 2018</p>
+  <footer id="footer-main">
+      <h4>STAY CONNECTED WITH US ON</h4>
+
+          <ul class="icons">
+            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+          </ul>
+      <p>&copy; Designed & Developed by TEAM IGNITE</p>
     </footer>  
 
     <script>
@@ -351,7 +448,7 @@
   crossorigin="anonymous"></script>
 
     <script>
-        window.sr = ScrollReveal({ reset: true });﻿
+        window.sr = ScrollReveal({mobile: false });﻿
         sr.reveal('.navbar', {
           duration: 2000,
           origin:'bottom'
@@ -420,6 +517,21 @@
       });
     });
     </script>
+
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          //var $nav-col = $(".collapse navbar-collapse");
+          var $slides = $(".rslides");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $slides.height());
+          // $nav-col.toggleClass('scrolled', $(this).scrollTop() > $slides.height());
+        });
+      });
+    </script>
+
+
+
   </body>
 </html>
 
